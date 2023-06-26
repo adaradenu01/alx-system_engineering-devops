@@ -1,1 +1,0 @@
-proot -r ~/.. docker
