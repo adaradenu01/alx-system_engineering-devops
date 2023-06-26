@@ -1,0 +1,9 @@
+#!/bin/env bash
+
+# Generate RSA key pair with 4096 bits and passphrase protection
+ssh-keygen -t rsa -b 4096 -f school -N betty
+ssh-keygen -lf $KEY_NAME
+ls -l $KEY_NAME $KEY_NAME
+
+# Output success message
+echo "RSA key pair generated successfully."
